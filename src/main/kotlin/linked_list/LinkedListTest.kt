@@ -8,6 +8,7 @@ fun main() {
     linkedList.addItem(5)
     linkedList.addItem(12)
     linkedList.addItem(10)
+    linkedList.addInPosition(5, 7)
 
 
     linkedList.foundItem(10)

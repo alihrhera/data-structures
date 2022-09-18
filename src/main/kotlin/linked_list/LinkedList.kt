@@ -26,12 +26,13 @@ class LinkedList<T> {
         var checkItem = header
         var tempPrevious = checkItem
         var i = -1
+        var found = false
         while (checkItem != null) {
             i += 1
             if (checkItem.value == item) {
+                found=true
                 //found the item and ready to delete it
-                //todo  try to delete first item
-
+                //  try to delete first item
                 if (checkItem == header) {
                     if (checkItem.next != null) header = checkItem.next   // if list has only one item
                     checkItem = null
@@ -39,11 +40,10 @@ class LinkedList<T> {
                     showInfo()
                     break
                 }
-
-                //todo  try to delete 2 item
+                //  try to delete madel item
                 if (tempPrevious != null) {
                     tempPrevious.next = checkItem.next
-                    //todo  try to delete last item
+                    //  try to delete last item
                     if (checkItem == lastItem) {
                         lastItem = tempPrevious
                         checkItem = null
@@ -62,6 +62,7 @@ class LinkedList<T> {
             tempPrevious = checkItem
             checkItem = checkItem.next
         }
+        if (!found) println("Not Found, delete failed ")
 
     }
 
@@ -111,5 +112,29 @@ class LinkedList<T> {
             i = i.next
         }
         return size
+    }
+
+
+    fun addInPosition(pos: Int, item: T) {
+        if (pos > size() - 1) addItem(item)  // to add item to last pos if item index > last item pos
+        else {
+            val newItem = Node(value = item)
+            var temPos = -1
+            var tempHeader = header
+            var tempPrevious = tempHeader
+            while (tempHeader != null) {
+                temPos += 1
+                if (temPos == pos) {
+                    newItem.next = tempHeader         // link the currant item to next of new item
+                    if (pos == 0) header = newItem    // change header to the new item
+                    else tempPrevious?.next = newItem // link previous item to new item
+                    // now new item in the madel of next and previous
+                    break
+                }
+
+                tempPrevious = tempHeader
+                tempHeader = tempHeader.next
+            }
+        }
     }
 }
