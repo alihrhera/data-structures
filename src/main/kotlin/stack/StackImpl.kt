@@ -24,4 +24,30 @@ fun main() {
     arrayStack.print()
 
 
+    val linkedListStack = LinkedListStack<Int>()
+
+    linkedListStack.push(10)
+    linkedListStack.push(7)
+    linkedListStack.push(8)
+    linkedListStack.push(9)
+    linkedListStack.push(5)
+
+    linkedListStack.print()
+
+    linkedListStack.pop()
+
+    linkedListStack.print()
+    linkedListStack.pop()
+    linkedListStack.print()
+    linkedListStack.top()
+    linkedListStack.pop()
+    linkedListStack.push(5)
+    linkedListStack.print()
+    linkedListStack.pop()
+    linkedListStack.top()
+    linkedListStack.pop()
+    linkedListStack.pop()
+
+    linkedListStack.top()
+    linkedListStack.print()
 }
