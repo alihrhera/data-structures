@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e48d0c7-610e-4229-9d1c-f35c65213272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linked_list/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linked_list/LinkedListTest.kt" afterDir="false" />
+    <list default="true" id="4e48d0c7-610e-4229-9d1c-f35c65213272" name="Changes" comment="create addInPosition fun">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/ArrayStack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/Stack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/StackImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +45,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="stack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.StackImplKt">
     <configuration name="LinkedListTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked_list.LinkedListTestKt" />
       <module name="data-structures" />
@@ -56,8 +58,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackImplKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.StackImplKt" />
+      <module name="data-structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StackImplKt" />
         <item itemvalue="Kotlin.LinkedListTestKt" />
       </list>
     </recent_temporary>
@@ -71,8 +81,24 @@
       <option name="presentableId" value="Default" />
       <updated>1663172080258</updated>
       <workItem from="1663172081766" duration="949000" />
-      <workItem from="1663486077378" duration="7021000" />
+      <workItem from="1663486077378" duration="10601000" />
+      <workItem from="1663592084891" duration="4833000" />
     </task>
+    <task id="LOCAL-00001" summary="create linked list">
+      <created>1663495904272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663495904272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create addInPosition fun">
+      <created>1663499028817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663499028817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +114,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create linked list" />
+    <MESSAGE value="create addInPosition fun" />
+    <option name="LAST_COMMIT_MESSAGE" value="create addInPosition fun" />
   </component>
 </project>
