@@ -7,6 +7,6 @@ It is a repository for testing, experimenting, and practicing data structures in
 
 - [x] linked list
 - [x] stack F-I-L-O
-- [ ] queue
+- [x] queue
 
 

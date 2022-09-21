@@ -1,0 +1,36 @@
+package queue
+
+fun main() {
+    val queue: ArrayQueue<Int> = ArrayQueue(4)
+    queue.queueItem(15)
+    queue.queueItem(4)
+    queue.queueItem(7)
+    queue.queueItem(9)
+    queue.queueItem(12)
+    queue.print()
+    queue.deQueue()
+    queue.deQueue()
+    queue.queueItem(15)
+    queue.deQueue()
+    queue.deQueue()
+    queue.deQueue()
+    queue.deQueue()
+
+
+    val queueLinked: LinkedQueue<Int> = LinkedQueue()
+    queueLinked.queueItem(20)
+    queueLinked.queueItem(10)
+    queueLinked.queueItem(8)
+    queueLinked.queueItem(6)
+    queueLinked.queueItem(12)
+    queueLinked.print()
+    queueLinked.deQueue()
+    queueLinked.deQueue()
+    queueLinked.queueItem(12)
+    queueLinked.print()
+    queueLinked.deQueue()
+    queueLinked.deQueue()
+    queueLinked.deQueue()
+    queueLinked.deQueue()
+    queueLinked.deQueue()
+}

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e48d0c7-610e-4229-9d1c-f35c65213272" name="Changes" comment="create Array Stack">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack/LinkedListStack.kt" afterDir="false" />
+    <list default="true" id="4e48d0c7-610e-4229-9d1c-f35c65213272" name="Changes" comment="create  Stack as LinkedListStack">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queue/ArrayQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queue/LinkedQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queue/Queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queue/queueImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stack/ArrayStack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stack/ArrayStack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stack/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stack/Stack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/stack/StackImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/stack/StackImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -47,12 +48,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="queue" />
       <recent name="stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StackImplKt">
+  <component name="RunManager" selected="Kotlin.QueueImplKt">
     <configuration name="LinkedListTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked_list.LinkedListTestKt" />
+      <module name="data-structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueImplKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueImplKt" />
       <module name="data-structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.QueueImplKt" />
         <item itemvalue="Kotlin.StackImplKt" />
         <item itemvalue="Kotlin.LinkedListTestKt" />
       </list>
@@ -82,7 +92,8 @@
       <updated>1663172080258</updated>
       <workItem from="1663172081766" duration="949000" />
       <workItem from="1663486077378" duration="10601000" />
-      <workItem from="1663592084891" duration="6564000" />
+      <workItem from="1663592084891" duration="7357000" />
+      <workItem from="1663718094378" duration="4630000" />
     </task>
     <task id="LOCAL-00001" summary="create linked list">
       <created>1663495904272</created>
@@ -105,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663597002809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create  Stack as LinkedListStack">
+      <created>1663598666652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663598666652</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +144,7 @@
     <MESSAGE value="create linked list" />
     <MESSAGE value="create addInPosition fun" />
     <MESSAGE value="create Array Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Array Stack" />
+    <MESSAGE value="create  Stack as LinkedListStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="create  Stack as LinkedListStack" />
   </component>
 </project>
